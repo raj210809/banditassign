@@ -1,0 +1,20 @@
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t level 9 command: sort data.txt | uniq -u
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s level 10 command : strings data.txt
+6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM level 11 command : cat data.txt && openssl enc -base64 -d <<< base6str
+JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv level 12 command : cat data.txt | tr ‘a-z’ ‘n-za-m’ | tr ‘A-Z’ ‘N-ZA-M’
+wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw level 13 command : mv file1 to their respective extension and then unzip it via command like gzip -d tar -xf etc….
+for level 14 we have given the private key which we have to use to login with using host and providing them private key for login command : ssh bandit14@localhost -I publickeyfile
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt level 15 command : echo “password in the file of level 14 provided in the bandit itself the path” | nc localhost 30000
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq in level 15 file I found the level 14 password 
+JQttfApK4SeyHwDlI9SXGR50qclOAil1 level 16 command : echo “previous password “ | openssl s_client -connect localhost:30001 -ign_eof
+p6ggwdNHncnmCNxuAt0KtKVq185ZU7AW level 17 command : ssh -I private.key bandit17@localhost
+hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg level 18 command : diff password.new password.old
+awhqfNnAbc1naukrpqDYcF95h7HoMTrC level 19 command : along with login we’ve to add cat “ ~/readme”
+VxCazJaVykI6W36BkBU0mJTCM8rR95XT level 20 command: first owner of the bandit20-do was bandit 19 so I can execute command as I loginned as bandit 19 as password in bandit20-do firat to check I have use ls -a on path given in question then I found the bandit20 file then inplace of ls I execute cat.
+NvEJF7oVjkddltPSrdKEFOllh9V1IBcq level 21 command : create a connection with sending the previous password as echo “previous pass” | nc -l -p anyport & , then as mentioned succonect with created connection port done all the work
+WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff level 22 command : cat cronjob_bandit22 then followed the cat with given path
+QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G level 23 command : jo v script me likha tha copy paste kr diya or aa gya password 
+VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar level 24 command : tmp file create krege fir usme .sh k fle bnayege taaki etc/pass se password access kr ske fir usme password naam k file bnayege fir uska permission set krege 666 se or uske baad password ko cat kr dege
+Level 24 : .sh file me program likhne k baad v nhi chlra h same same likhne k baad v nhi chlra h
